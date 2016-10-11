@@ -1,0 +1,36 @@
+
+@media (min-width: 768px){
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 78px;
+    margin-left: 78px;
+}
+}
+
+ul{
+	margin-top: 0;
+    margin-bottom: 10px;
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar-header{
+	margin-left: 78px !important;
+	margin-right: 78px !important
+}
+.container-fluid {
+    margin-top: 28px !important;
+    margin-bottom: 28px !important;
+}
+
+.imgHeader {
+	background-image: linear-gradient(transparent 70%,white),
+	url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -webkit-background-size: 100% auto;
+   -o-background-size: 100% auto;
+   -ms-background-size: 100% auto;
+	height: 570px;
+}
